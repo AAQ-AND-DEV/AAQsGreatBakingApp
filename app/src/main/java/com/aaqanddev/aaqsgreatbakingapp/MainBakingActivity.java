@@ -1,11 +1,11 @@
 package com.aaqanddev.aaqsgreatbakingapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import dagger.android.AndroidInjection;
 
-public class MainBakingActivity extends AppCompatActivity {
+public class MainBakingActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

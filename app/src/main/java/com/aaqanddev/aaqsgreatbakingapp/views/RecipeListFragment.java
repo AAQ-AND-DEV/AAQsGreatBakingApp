@@ -1,17 +1,20 @@
 package com.aaqanddev.aaqsgreatbakingapp.views;
 
-import android.arch.lifecycle.ViewModelProviders;
+
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.aaqanddev.aaqsgreatbakingapp.R;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 public class RecipeListFragment extends Fragment {
+
+    //TODO update fragment to DI approach
 
     private RecipeListViewModel mViewModel;
 
@@ -28,7 +31,7 @@ public class RecipeListFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(RecipeListViewModel.class);
+        //mViewModel = ViewModelProviders.of(this).get(RecipeListViewModel.class);
         // TODO: Use the ViewModel
     }
 
