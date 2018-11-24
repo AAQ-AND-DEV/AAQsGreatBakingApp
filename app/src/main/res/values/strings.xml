@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AAQsGreatBakingApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="recipe_list_label">Recipes</string>
+
+    <string name="ingredient_list_label">Ingredients</string>
+
+    <string name="servings_label">Servings:</string>
+
+    <string name="no_connect_error_message">Something went wrong, please try again when you get a connection. </string>
+
+
 </resources>

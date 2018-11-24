@@ -8,6 +8,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:id="@+id/recipe_list_label"
+        android:text="@string/recipe_list_label" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipe_list_rv">
+    </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>

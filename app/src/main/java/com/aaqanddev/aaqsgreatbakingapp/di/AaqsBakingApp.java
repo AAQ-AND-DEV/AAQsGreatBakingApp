@@ -17,7 +17,7 @@ public class AaqsBakingApp extends Application implements HasActivityInjector {
     public void onCreate() {
         super.onCreate();
 //TODO check on wifi -- since I can't connect to host 'dl.google.com'
-        Dagger3-AaqsBakingAppComponent.create()
+        DaggerAaqsBakingAppComponent.create()
                 .inject(this);
     }
 

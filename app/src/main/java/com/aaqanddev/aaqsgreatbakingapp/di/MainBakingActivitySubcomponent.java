@@ -7,6 +7,6 @@ import dagger.android.AndroidInjector;
 
 public interface MainBakingActivitySubcomponent extends AndroidInjector<MainBakingActivity> {
     @Subcomponent.Builder
-    public abstract class Builder extends AndroidInjector.Builder<MainBakingActivity> {}
+    abstract class Builder extends AndroidInjector.Builder<MainBakingActivity> {}
 
 }
