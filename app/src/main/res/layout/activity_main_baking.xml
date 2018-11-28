@@ -15,4 +15,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- an id and host the fragment
+    but I think I need a fragment wrapper
+    TODO(tmrw)-->
+    <include layout="@layout/fragment_recipe_list"/>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

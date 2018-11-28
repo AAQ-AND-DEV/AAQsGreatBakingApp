@@ -8,12 +8,18 @@ import android.view.ViewGroup;
 
 import com.aaqanddev.aaqsgreatbakingapp.R;
 
+import javax.inject.Inject;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import dagger.android.DaggerFragment;
 
-public class RecipeListFragment extends Fragment {
 
+public class RecipeListFragment extends DaggerFragment {
+    //TODO (1) inject RVAdapter,
+    //TODO (2)
+    //@Inject
     //TODO update fragment to DI approach
 
     private RecipeListViewModel mViewModel;

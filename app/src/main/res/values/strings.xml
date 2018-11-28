@@ -11,6 +11,10 @@
     <string name="servings_label">Servings:</string>
 
     <string name="no_connect_error_message">Something went wrong, please try again when you get a connection. </string>
+    <string name="steps_label">Steps</string>
+    <!-- TODO (in act) pass in stepList index to
+    getString(R.string.single_step_label, ind)to track step number-->
+    <string name="single_step_label">Step # %1$d</string>
 
 
 </resources>
