@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 
 import com.aaqanddev.aaqsgreatbakingapp.R;
 
+//TODO (NEXT) add a StepsFragModule
+// TODO refine it
+// TODO (set adapter and stuff for steps)
+
 /**
  * A simple {@link Fragment} subclass.
  */
